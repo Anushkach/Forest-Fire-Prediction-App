@@ -21,7 +21,7 @@ def binary_classification_model(temperature, relative_humidity, rain):
 
     # Waiting for input
     if temperature==0 and relative_humidity==0 and rain==0:
-        return "Please Enter Input Data"
+        return "None. (Please Enter Input Data)"
     else:
         #Add input values to a pandas DataFrame
         input_data = pd.DataFrame({'Temperature': [temperature], ' RH': [relative_humidity], 'Rain': [rain]})
