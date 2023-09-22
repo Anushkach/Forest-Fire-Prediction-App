@@ -4,10 +4,10 @@ This is a simple Streamlit app that predicts whether a forest fire will occur ba
 
 ## Installation
 
-To run this app, you need to have Python 3.11 installed on your system. You can then install the required Python packages using pip:
+To run this app, you need to have Python 3.x installed on your system. You can then install the required Python packages using pip:
 
 ```
-pip install pandas streamlit
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -29,3 +29,9 @@ The code for this app is written in Python, and uses the following libraries:
 - `streamlit`: for creating the web app and input/output boxes
 
 The `binary_classification_model()` function takes the input values as arguments, creates a DataFrame from them, and uses the loaded machine learning model to predict whether a forest fire will occur. The result is then displayed in the output box.
+
+## Files
+
+- `forest_fire_app.py`: the main Python script that runs the Streamlit app
+- `model.pkl`: the saved machine learning model used by the app
+- `requirements.txt`: a list of required Python packages and their versions
