@@ -4,7 +4,7 @@ This is a simple Streamlit app that predicts whether a forest fire will occur ba
 
 ## Installation
 
-To run this app, you need to have Python 3.x installed on your system. You can then install the required Python packages using pip:
+To run this app, you need to have Python 3.11 installed on your system. You can then install the required Python packages using pip:
 
 ```
 pip install pandas streamlit
