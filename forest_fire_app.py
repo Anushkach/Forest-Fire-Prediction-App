@@ -1,11 +1,10 @@
-import pickle
+import joblib
 import pandas as pd
 import streamlit as st
 
 # Load the saved model from the file
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
-
+# Load the model using joblib
+model = joblib.load('model.joblib')
 
 
 # Input boxes
