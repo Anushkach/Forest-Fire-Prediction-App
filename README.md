@@ -24,7 +24,7 @@ This will start the app in your default web browser. You can then enter values f
 
 The code for this app is written in Python, and uses the following libraries:
 
-- `pickle`: for loading the saved machine learning model from a file
+- `joblib`: for loading the saved machine learning model from a file
 - `pandas`: for creating a DataFrame from the input values
 - `streamlit`: for creating the web app and input/output boxes
 
@@ -33,5 +33,6 @@ The `binary_classification_model()` function takes the input values as arguments
 ## Files
 
 - `forest_fire_app.py`: the main Python script that runs the Streamlit app
-- `model.pkl`: the saved machine learning model used by the app
+- `model.joblib`: the saved machine learning model used by the app
 - `requirements.txt`: a list of required Python packages and their versions
+
