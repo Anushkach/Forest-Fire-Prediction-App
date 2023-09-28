@@ -10,9 +10,9 @@ model = joblib.load('model.joblib')
 # Input boxes
 st.title("Forest Fire Prediction App")
 
-temperature = st.number_input("Temperature")
-rh = st.number_input("RH")
-rain = st.number_input("Rain")
+temperature = st.number_input(label="Temperature",step=1)
+rh = st.number_input(label="RH",step=1)
+rain = st.number_input(label="Rain",step=0.1)
 
 
 
