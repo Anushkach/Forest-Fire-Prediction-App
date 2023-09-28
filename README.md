@@ -12,13 +12,16 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run the app, open a terminal or command prompt in the directory where the code is saved, and run the following command:
+To run the app in a local environment, open a terminal or command prompt in the directory where the code is saved, and run the following command:
 
 ```
 streamlit run forest_fire_app.py
 ```
 
 This will start the app in your default web browser. You can then enter values for temperature, relative humidity, and rain using the input boxes, and the app will predict whether a forest fire will occur based on those values.
+
+You can also run this app from streamlit community cloud.  
+https://forest-fire-prediction-app.streamlit.app/
 
 ## Code
 
