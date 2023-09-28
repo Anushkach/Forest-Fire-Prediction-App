@@ -1,6 +1,6 @@
 # Forest Fire Prediction App
 
-This is a simple Streamlit app that predicts whether a forest fire will occur based on input values of temperature, relative humidity, and rain.
+The primary goal of this project was to develop a web application that displays weather information for user-specified locations and provides predictive analysis to assess the likelihood of fire incidents. To predict forest fires, we collected data on rainfall, relative humidity, and temperature, taking into account their availability and importance in the predictive modeling process. We implemented an ensemble machine learning model to improve performance by incorporating the most effective algorithms from the dataset and using a voting classifier. The web application predicts the occurrence of a forest fire based on user input for temperature, relative humidity, and rainfall, utilizing a pre-trained binary classification model.
 
 ## Installation
 
@@ -35,4 +35,7 @@ The `binary_classification_model()` function takes the input values as arguments
 - `forest_fire_app.py`: the main Python script that runs the Streamlit app
 - `model.joblib`: the saved machine learning model used by the app
 - `requirements.txt`: a list of required Python packages and their versions
+
+## Contact
+If you have any questions or concerns, please contact the project maintainers at anushkachathuranga1998@gmail.com or janithavidunath@gmail.com.
 
