@@ -40,5 +40,5 @@ The `binary_classification_model()` function takes the input values as arguments
 - `requirements.txt`: a list of required Python packages and their versions
 
 ## Contact
-If you have any questions or concerns, please contact the project maintainers at anushkachathuranga1998@gmail.com or janithavidunath@gmail.com.
+If you have any questions or concerns, please contact me at anushkachathuranga1998@gmail.com
 
